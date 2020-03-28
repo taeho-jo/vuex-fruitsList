@@ -1,24 +1,13 @@
-# vuex-second
+# vuex 학습
 
-## Project setup
-```
-npm install
-```
+vuex의 기초학습과 개념이해를 위해fruits List 만들기
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* store를 생성해보기
+* 과일이름 대문자로 렌더링하기
+* 버튼 클릭이 되었을 때, 20% 할인 가격으로 나오게 하기
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### state
+### getters
+### mutations
+### actions
+### helpers
