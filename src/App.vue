@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1 id="app-title">Fruits List</h1>
+    <div id="fruits-table">
+      <FruitsList></FruitsList>
+      <FruitsPrice></FruitsPrice>
+    </div>
+    <BtnDiscount></BtnDiscount>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import FruitsList from "./components/FruitsList";
+import FruitsPrice from "./components/FruitsPrice";
+import BtnDiscount from "./components/BtnDiscount";
 
 export default {
-  name: "App",
   components: {
-    HelloWorld
+    FruitsList,
+    FruitsPrice,
+    BtnDiscount
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style lang="scss" src="@/styles/components/app.scss"></style>
